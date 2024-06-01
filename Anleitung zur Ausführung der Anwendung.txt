@@ -1,0 +1,26 @@
+Voraussetzungen:
+x MetaMask Netzwerk "Polygon Mumbai" muss importiert sein und aktiv verbunden sein, siehe Anleitung: https://www.datawallet.com/crypto/add-polygon-mumbai-to-metamask#:~:text=Connect%20MetaMask%3A%20Pair%20your%20MetaMask,Mumbai%20into%20your%20MetaMask%20extension.
+
+x Blockchain-Addresse muss über ein Guthaben an MATIC Tokens verfügen (nur für Benutzertyp Datenbearbeiter)
+
+x Neuste Version von "Node.js" installiert, siehe https://nodejs.org/en/download
+
+
+Front-End betreiben:
+
+0) E-Mail an "julian.steiner@unifr.ch" zur Registierung des Blockchain-Accounts 
+   Bekanntgabe einer Adresse für Benutzertyp Datenbearbeiter und andere Adressen für betroffene Personen (inkl. E-Mail)
+
+1) FE-Code in "Visual Studio Code" öffnen
+2) Module installieren mit mittels Befehl "npm install"
+3) Nach erfolgreicher Installation Befehl "npm run dev" ausführen
+4) http://localhost:3000/ öffnen
+
+
+
+
+Back-End betreiben:
+
+0) BE-Code in "Visual Studio Code" öffnen
+1) Module installieren mit mittels Befehl "npm install"
+2) Nach erfolgreicher Installation Befehl "node index.js" ausführen
